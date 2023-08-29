@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cart">
+        <div class="search">
+            <input type="text" placeholder="Search any movie...." id="movieName">
+            <button class="btn" onclick="searchMovie()">Search Movie</button>
+        </div>
+
+    </div>
+    <div class="loader-cart">
+        <div class="loader" id="Ani-loader"></div>
+    </div>
+
+    <div class="movie-cart" id="Mcart">
+        <div>
+         
+            <h2 id="title">The Avenger</h2>
+            <p>Released on : <span id="Date"></span></p>
+            <p>Director : <span id="Director"></span></p>
+            <p>Actor : <span id="Actor"></span></p>
+            <p>Genre : <span id="Genre"></span></p>
+            <p>Desc : <span id="Desc"></span></p>
+            <p>Box office collection : <span id="collection"></span></p>
+            <p>Award : <span id="Award"></span></p>
+            <p>Writer : <span id="writer"></span></p>
+        </div>
+
+        <div class="poster">
+            <img id="img"
+                src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+                alt="">
+            <div class="rating" id="ratings"> IMBD : 7.9</div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
